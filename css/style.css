@@ -1,0 +1,715 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, a:hover{
+	text-decoration: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Playfair Display', serif;
+}
+
+
+/*********** global css coding start ****************/
+
+.mobile-display{
+	display: none;
+}
+.desktop-display{
+	display: block;
+}
+.gap{
+	padding: 80px 0px;
+}
+.newgap{
+	padding-top: 80px;
+}
+.myh2{
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}
+.myh3{
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #f29f05;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.mytext{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
+}
+.btn-info{
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 500;
+	color: #fff;
+	background: #F29F05;
+	padding: 12px 80px;
+	border: 1px solid #F29F05;
+	border-radius: 2px;
+	transition: .5s;
+}
+.btn-info:hover{
+	color: #F29F05;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.menu-bg{
+	width: 100%;
+	background: rgba(0, 0, 0, .6) !important;
+}
+
+/*********** global css coding end ****************/
+
+/*********** banner css coding start ****************/
+
+.banner{
+	width: 100%;
+	background: url(../img/banner.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+/*css for header*/
+
+.header-section{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.navbar{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.bg-light{
+	background: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+	color: #fff;
+	background: #F29F05;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+    padding: 5px 12px;
+    border-radius: 2px;
+    transition: .5s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background: #F29F05;
+	color: #fff;
+}
+
+/*for banner inner*/
+
+.banner-inner{
+	text-align: center;
+	padding: 185px 0;
+}
+.banner-inner h1{
+	font-size: 72px;
+	line-height: 78px;
+	font-weight: 700;
+	color: #F29F05;
+}
+.banner-inner p{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #fff;
+}
+/*********** banner css coding start ****************/
+
+/*********** food css coding start ****************/
+.food{
+	width: 100%;
+	background: #fff;
+}
+.food-inner{
+	margin-top: 25px;
+}
+.food-inner img{
+	width: 100%;
+	opacity: 1;
+	transition: .5s;
+}
+.food-inner img:hover{
+	opacity: .8;
+}
+.food-text{
+	padding-top: 20px;
+}
+/*********** food css coding end ****************/
+/*********** actually css coding start ****************/
+.actually{
+	width: 100%;
+	background: #F5F5F5;
+}
+.actually-inner{
+	overflow: hidden;
+}
+.actually-inner img{
+	width: 120%;
+	margin: 20px 0;
+}
+.actually-inner h2, .actually-inner p{
+	text-align: left;
+}
+.actually .col-md-7{
+	padding-left: 70px;
+}
+
+.actually-item{
+	text-align: center;
+}
+.actually-item img{
+	width: 22%;
+	margin: 15px 0;
+}
+.actually-item h3{
+	font-size: 24px;
+}
+.actually-item p{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+/*********** actually css coding end ****************/
+
+
+/*********** events css coding starnt ****************/
+
+
+.events{
+	width: 100%;
+	background: url(../img/events-bg.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.event-top h2{
+	color: #f29f05;
+}
+.event-top p{
+	color: #bfbfbf;
+	line-height: 33px;
+	margin: 50px 0;
+}
+
+.event-inner{
+	width: 100%;
+	background: url(../img/event-item-1.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 20px;
+	opacity: .9;
+}
+.event-box{
+	padding: 200px 10px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	text-align: center;
+}
+.event-box h3{
+	line-height: 38px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.event-box p{
+	color: #fff;
+}
+.event-box .btn-info{
+	padding: 20px 40px;
+}
+.event-inner-2{
+	background: url(../img/event-item-2.jpg) center center no-repeat;
+}
+.event-inner-3{
+	background: url(../img/event-item-3.jpg) center center no-repeat;
+}
+/*********** events css coding end ****************/
+
+/*********** contact css coding start ****************/
+.contact{
+	width: 100%;
+	background: url(../img/contact-bg.png) top right no-repeat;
+	background-color: #F5F5F5;
+	background-size: contain;
+}
+.contact-inner{
+	padding: 50px 0;
+	padding-left: 130px;
+	margin-bottom: -200px;
+}
+.contact-inner h2{
+	text-align: left;
+	margin-bottom: 40px;
+}
+.contact-inner p{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #999;
+	margin-bottom: 25px;
+}
+.contact-inner a{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #f29f05;
+	margin-bottom: 10px;
+}
+form{
+	margin-top: 25px;
+}
+.input-field{
+	width: 100%;
+	background: #E2E2E2;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+}
+.input-field label{
+	font-size: 12px;
+	color: #969696;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.input-field input , .input-field textarea{
+	width: 100%;
+    font-size: 12px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #969696;
+    outline: 0;
+}
+.submit{
+	color: #fff !important;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+.submit:hover{
+	background: #C27F04;
+}
+
+.just-bg{
+	width: 100%;
+	height: 200px;
+	background: #F5F5F5;
+}
+/*********** contact css coding end ****************/
+
+/*********** gallery css coding start ****************/
+
+.gallery{
+	width: 100%;
+	background: #f29f05;
+}
+.gallery-top h2{
+	color: #fff;
+}
+.gutter{
+	--bs-gutter-x: 10px;
+}
+.gallery-top p{
+	color: #fff;
+	line-height: 33px;
+	margin: 50px 0;
+}
+.gallery-box{
+	width: 100%;
+	padding: 200px 0;
+	position: relative;
+}
+.gallery-box-1{
+	background: url(../img/gallery-bg-1.png) center center no-repeat;
+	background-size: cover;
+}
+.gallery-box-2{
+	background: url(../img/gallery-bg-2.png) center center no-repeat;
+	background-size: cover;
+}
+.gallery-box-3{
+	background: url(../img/gallery-bg-3.png) center center no-repeat;
+	background-size: cover;
+	margin-top: 10px;
+}
+
+.gallery-box-4{
+	background: url(../img/gallery-bg-4.png) center center no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.gallery-box i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding: 23px;
+    border: 2px solid #fff;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .3s;
+}
+.gallery-box:hover i{
+	opacity: 1;
+	transform: translate(-50%, -50%);
+}
+
+/*********** gallery css coding end ****************/
+
+/*********** footer css coding start ****************/
+.footer{
+	width: 100%;
+	background: url(../img/footer-bg.jpg) center center no-repeat;
+	background-attachment: fixed;
+}
+.footer-inner{
+	text-align: center;
+}
+.footer-inner img{
+	margin-bottom: 100px;
+}
+.footer-inner p{
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: 400px;
+	color: #fff;
+}
+.footer-inner h5{
+	font-size: 72px;
+	line-height: 74px;
+	font-weight: 700px;
+	font-family: 'Montserrat', sans-serif;
+	color: #f29f05;
+	margin: 40px 0;
+}
+.social-icons{
+	text-align: center;
+	margin-top: 60px;
+}
+.social-icons ul{
+	display: inline-block;
+	padding-left: 0;
+}
+.social-icons ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.social-icons ul li a i {
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+
+.footer-inner .copyright{
+	font-size: 14px;
+	line-height: 30px;
+	color: #f29f05;
+	margin-top: 150px;
+}
+
+/*********** footer css coding end ****************/
+/*********** scroll top css coding end ****************/
+
+.btn-primary{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #f29f05;
+	color: #fff;
+	border-color: #3E6909;
+}
+.btn-primary:hover{
+	background: #3E6909;
+	border-color: #f29f05;
+}
+
+
+/*********** responsive css coding start ****************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	.navbar-light .navbar-toggler {
+		font-size: 16px;
+    color: #fff;
+    border-color: #fff;
+    background: #fff;
+	}
+	.navbar-light .navbar-nav{
+		background: #000;
+		margin-top: 5px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align: center;
+		margin-left: 0px;
+	}
+	.banner-inner{
+		padding: 135px 0;
+	}
+  .banner-inner h1{
+	  font-size: 30px;
+    line-height: 38px;
+	}
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.banner-inner p {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 15px 0;
+  }
+	.btn-info{
+		margin-top: 10px;
+		padding: 12px 28px;
+	}
+	.myh2 {
+    font-size: 25px;
+    line-height: 34px;
+  }
+	.newgap{
+		padding: 0;
+	}
+	.actually .col-md-7{
+		padding-left: 0;
+	}
+	.actually-item{
+		margin-top: 10px;
+	}
+	.actually-item p{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.event-inner{
+		margin-top: 20px;
+	}
+	.event-box{
+		padding: 130px 10px;
+	}
+	.event-box .btn-info {
+    padding: 15px 40px;
+	}
+	.contact{
+		background: #F5F5F5;
+	}
+	.contact-inner{
+		padding-left: 0px;
+	}
+	.contact-inner a{
+		font-size: 17px;
+    line-height: 53px;
+	}
+	.contact-inner .submit{
+		font-size: 17px;
+    line-height: 24px;
+	}
+	.gallery-box-1 , .gallery-box-3 {
+    margin-bottom: 10px;
+  }
+
+	.footer-inner h5{
+	   font-size: 30px;
+  }
+
+  
+  
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .navbar-light .navbar-toggler {
+		font-size: 16px;
+    color: #fff;
+    border-color: #fff;
+    background: #fff;
+	}
+	.navbar-light .navbar-nav{
+		background: #000;
+		margin-top: 5px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align: center;
+		margin-left: 0px;
+		margin: 5px 0;
+	}
+	.banner-inner{
+		padding: 135px 0;
+	}
+  .banner-inner h1{
+	  font-size: 45px;
+    line-height: 58px;
+	}
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.banner-inner p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 15px 0;
+  }
+	.btn-info{
+		margin-top: 10px;
+		padding: 15px 46px;
+	}
+	.myh2 {
+    font-size: 35px;
+    line-height: 43px;
+  }
+	.newgap{
+		padding: 0;
+	}
+	.actually .col-md-7{
+		padding-left: 0;
+	}
+	.actually-item{
+		margin-top: 10px;
+	}
+	.actually-item p{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.event-inner{
+		margin-top: 20px;
+	}
+	.event-box{
+		padding: 180px 10px;
+	}
+	.event-box .btn-info {
+    padding: 15px 40px;
+	}
+	.contact{
+		background: #F5F5F5;
+	}
+	.contact-inner{
+		padding-left: 0px;
+	}
+	.contact-inner a{
+		font-size: 17px;
+    line-height: 53px;
+	}
+	.contact-inner .submit{
+		font-size: 17px;
+    line-height: 24px;
+	}
+	.gallery-box-1 , .gallery-box-3 {
+    margin-bottom: 10px;
+  }
+
+	.footer-inner h5{
+	   font-size: 30px;
+  }
+  
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  .navbar-light .navbar-toggler {
+		font-size: 16px;
+    color: #fff;
+    border-color: #fff;
+    background: #fff;
+	}
+	.navbar-light .navbar-nav{
+		background: #000;
+		margin-top: 5px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		text-align: center;
+		margin-left: 0px;
+		margin: 5px 0;
+	}
+	.newgap .col-md-3 , .events .col-md-4{
+		width: 50%;
+	}
+	.event-inner{
+	  margin-bottom: 15px;
+	}
+	.mobile-display{
+		display: block;
+	}
+	.desktop-display{
+		display: none;
+	}
+	.contact{
+		background: #F5F5F5;
+	}
+	.contact .col-md-6{
+		margin: auto;
+		width: 60%;
+	}
+	.contact-inner{
+		padding-left: 0px;
+		text-align: center;
+	}
+	.contact-inner h2{
+		text-align: center;
+	}
+	.input-field label{
+		text-align: left;
+		display: block;
+	}
+	.footer{
+		background: url(../img/footer-bg.jpg) bottom center no-repeat;
+		background-attachment: fixed;
+	}
+  
+	.footer-inner h5{
+		font-size: 60px;
+	}
+}
+
+
+
+
